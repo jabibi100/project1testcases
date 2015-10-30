@@ -1,7 +1,4 @@
 /* test expression and sequential code*/
-void foo1(int x1);
-int foo2(int x2);
-
 void foo1(int x1){
   int x,j,k;
   x = foo2(x1);
