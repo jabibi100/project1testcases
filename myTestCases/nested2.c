@@ -1,30 +1,30 @@
 void main()
 {
-	int   x, y, z = 1;
+	int   x, y, z = 1;//1 2 3
 	
-	if(x){
-	  y = 3;
+	if(x){//4
+	  y = 3;//5
 	}else{
-	switch (z + 1)
+	switch (z + 1)//6
 	{	
 		case 0:
-			if(z){
-				x = 3;
+			if(z){//7
+				x = 3;//8
 			}
 		case 1:
-			y = 4;
-		break;
+			y = 4;//9
+		break;//10
 		
 
 		case 4:
-			y = 3;
-		break;
+			y = 3;//11
+		break;//12
 		
 		default:
-			y = 1;
+			y = 1;//13
 	}
 	}
 	
-		x = y + z;
-        return x;
+		x = y + z;//14
+        return x;//15
 }

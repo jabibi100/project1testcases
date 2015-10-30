@@ -135,10 +135,10 @@ void foo5()
 
 int main(){
 
-	void foo();//48
-	void foo2();//49
-	void foo3();//50
-	void foo4();//51
-	void foo5();//52
+	 foo();//48
+	 foo2();//49
+	 foo3();//50
+	 foo4();//51
+	 foo5();//52
 }
 
