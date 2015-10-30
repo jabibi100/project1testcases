@@ -24,9 +24,15 @@ int foo1(int y)
 	y = x1;
 	switch( x2 )
 	{
-		case 1: x2 = g1; break;
-		case 2: x2 = g2; break;
-		case 3: x2 = g3; break;
+		case 1: 
+			x2 = g1; 
+			break;
+		case 2: 
+			x2 = g2; 
+			break;
+		case 3: 
+			x2 = g3; 
+			break;
 	}
 }
 
@@ -59,8 +65,11 @@ void foo3()
 	}
 	
 	switch(z2){
-		case 1: g3 = 110; break;
-		default: g3 = 120;
+		case 1: 
+			g3 = 110;
+			break;
+		default: 
+			g3 = 120;
 	}
 }
 
@@ -80,16 +89,17 @@ void main()
 	int r3 = 22;
 
 	if( r3 > 22 )
-	g2 = 12;
+		g2 = 12;
 
 	if( r1 > 20 )   
-	foo3();
+		foo3();
 	else 
-	foo3();
+		foo3();
 
 	switch(r2) {
-	case 1: 
-	default: foo2();
+		case 1: 
+		default: 
+			foo2();
 	}
 
 	while(r2>100) foo4(g3);

@@ -1,4 +1,4 @@
 #functions: 5
 #global vars: 0
 #local vars: 17
-#statements: 19
+#statements: 26

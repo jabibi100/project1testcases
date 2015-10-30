@@ -1,3 +1,7 @@
+int myPrint(char * temp, int b){
+	return b;
+}
+
 void foo()
 {
     int x = 1;
@@ -6,7 +10,7 @@ void foo()
     {
         int y;
 
-        printf( "%d\n", y ); 
+        myPrint( "%d\n", y ); 
     }
 }
 
@@ -20,21 +24,21 @@ void foo1()
 
     {
         int var1 = 2;   
-        printf( "%d\n", var1 ); 
+        myPrint( "%d\n", var1 ); 
 
         var5  = 2;      
 
-        printf( "%d\n", var4 ); 
+        myPrint( "%d\n", var4 ); 
     }
 
     {
         int var2;               
 
-        printf( "%d\n", var2 ); 
-        printf( "%d\n", var3 ); 
+        myPrint( "%d\n", var2 ); 
+        myPrint( "%d\n", var3 ); 
     }
 
-    printf("%d\n", var5 ); 
+    myPrint("%d\n", var5 ); 
 
 }
 
@@ -51,10 +55,10 @@ void foo2()
         int y;
         z = 2;
                                  
-        printf( "%d\n", x, y );  
+        myPrint( "%d\n", x, y );  
     }
 
-    printf( "%d\n", z, w ); 
+    myPrint( "%d\n", z, w ); 
 }
 
 void main(){
