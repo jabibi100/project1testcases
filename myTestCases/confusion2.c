@@ -1,7 +1,7 @@
 float c; //1
 void confuse(int a, int b)
 {
-	while( a + b > c){//2
+	while( a + b > c)//2
 	{
 		if (c > 0)//3
 		{
