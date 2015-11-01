@@ -1,0 +1,4 @@
+i#functions: 2
+#global vars: 1
+#local vars: 2
+#statements: 11
