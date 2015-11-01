@@ -1,4 +1,4 @@
-i#functions: 2
+#functions: 2
 #global vars: 1
 #local vars: 2
-#statements: 10101010101010101010 
+#statements: 10 
